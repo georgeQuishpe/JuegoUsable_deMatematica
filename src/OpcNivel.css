@@ -1,0 +1,41 @@
+.buttons-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;  /* Altura fija del contenedor */
+    width: 100%;    /* Ancho completo */
+    position: absolute;
+    top: 400px;
+    gap: 150px; 
+  }
+
+  .buttons-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;  /* Altura fija del contenedor */
+    width: 100%;    /* Ancho completo */
+    position: absolute;
+    top: 300px;
+    gap: 150px; 
+  }
+  
+  .opc-button {
+    font-family: 'MiFuente', sans-serif;
+    width: 250px;  /* Ancho fijo */
+    height: 60px; /* Altura fija igual que el ancho */
+    font-size: 25px;/*tamaño de la letra*/
+    border: none;
+    border-radius: 10px;
+    color: #000; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .opc-button:hover {
+    opacity: 0.8;
+  }

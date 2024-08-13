@@ -1,0 +1,61 @@
+.button-Pause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    top: 6%;
+    right: 4%;
+}
+
+.icono-Pause {
+  width: 55px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 55px;
+}
+
+.icono-Pause:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.button-Regresar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  top: 2%;
+  left: -1%;
+  z-index: 2; /* Asegura que el menú esté por encima del fondo */
+}
+
+.button-sonido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 0;
+  top: 40%;
+  left: 45%;
+  z-index: 2; /* Asegura que el menú esté por encima del fondo */
+}
+.icono-Sonido{
+  width: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.icono-Regresar{
+  width: 90px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 90px;
+}
+  
+.icono-Regresar:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}

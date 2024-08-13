@@ -1,0 +1,24 @@
+.configuracion-container {
+    position: absolute;
+    left: 0%; /* Alinea el contenedor a la izquierda */
+    top: 0; /* Alinea el contenedor en la parte superior */
+    width: calc(100% - 440px); /* Resta el ancho del menú para evitar solapamiento */
+    height: 100%; /* Establece la altura completa de la pantalla */
+    padding: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    color: #fff; /* Color del texto */
+    font-family: 'MiFuente', sans-serif; /* Fuente del texto */
+    z-index: 1; /* Asegura que las instrucciones estén por debajo del menú */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho/alto */
+}
+
+.titulo-configuracion {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

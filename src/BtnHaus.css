@@ -1,0 +1,23 @@
+/* ButtonWithHouse.css */
+.button-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    top: 75%;
+    right: 46.7%;
+}
+  
+.icono-home {
+    width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 80px;
+  }
+  
+.icono-home:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  

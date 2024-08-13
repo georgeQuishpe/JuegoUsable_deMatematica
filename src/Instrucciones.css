@@ -1,0 +1,72 @@
+.instrucciones-container {
+    position: absolute;
+    
+    left: 0%; /* Alinea el contenedor a la izquierda */
+    top: 0; /* Alinea el contenedor en la parte superior */
+    width: calc(100% - 440px); /* Resta el ancho del menú para evitar solapamiento */
+    height: 100%; /* Establece la altura completa de la pantalla */
+    padding: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    color: #fff; /* Color del texto */
+    font-family: 'MiFuente', sans-serif; /* Fuente del texto */
+    z-index: 1; /* Asegura que las instrucciones estén por debajo del menú */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho/alto */
+}
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.instruccion {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    width: 85%;
+    margin-left: 6%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.instruccion img {
+    display: block;
+    margin: 10px auto; /* Centrar la imagen */
+    max-width: 100%; /* Ajustar el tamaño de la imagen al contenedor */
+}
+
+.instruccion strong {
+    color: #a0f4f4; /* Color del texto en negrita */
+}
+
+/* Estilo general del scrollbar */
+.instrucciones-container::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de scroll */
+}
+
+/* Estilo del track (pista) del scrollbar */
+.instrucciones-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Color de fondo del track */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del thumb (manija) del scrollbar */
+.instrucciones-container::-webkit-scrollbar-thumb {
+    background: #a0f4f4; /* Color del thumb */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del thumb al hacer hover */
+.instrucciones-container::-webkit-scrollbar-thumb:hover {
+    background: #7ee5e5; /* Color del thumb al hacer hover */
+}
+
+/* Estilo del thumb al estar activo (click) */
+.instrucciones-container::-webkit-scrollbar-thumb:active {
+    background: #5edada; /* Color del thumb al estar activo */
+}
