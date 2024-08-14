@@ -21,11 +21,11 @@ const Menu = () => {
         <span>Instrucciones</span>
       </button>
       <button className="menu-button btn-material" onClick={() => navigate('/Material')}>
-        <img src={settigs} alt="material de estudios" />
+        <img src={material} alt="material de estudios" />
         <span>Material de estudios</span>
       </button>
       <button className="menu-button" onClick={() => navigate('/Configuracion')}>
-        <img src={material} alt="configuraciones" />
+        <img src={settigs} alt="configuraciones" />
         <span>configuraciones</span>
       </button>
     </div>
