@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/JuegoUsable_deMatematica/static/css/main.a7b879da.css",
+    "main.js": "/JuegoUsable_deMatematica/static/js/main.a563e417.js",
+    "static/js/453.f6a4268a.chunk.js": "/JuegoUsable_deMatematica/static/js/453.f6a4268a.chunk.js",
+    "static/media/sonidoJuego.mp3": "/JuegoUsable_deMatematica/static/media/sonidoJuego.0b251e3f2c7cb73f8f1f.mp3",
+    "static/media/fondo3.png": "/JuegoUsable_deMatematica/static/media/fondo3.ee98b9f8f51e4f1e75e6.png",
+    "static/media/fondo2.png": "/JuegoUsable_deMatematica/static/media/fondo2.f33f15aaf0327c8b7ad8.png",
+    "static/media/fondoMenu.png": "/JuegoUsable_deMatematica/static/media/fondoMenu.091d2e9709cdf980af76.png",
+    "static/media/FondoGameOver.png": "/JuegoUsable_deMatematica/static/media/FondoGameOver.bdd1c1432720a2cda8ee.png",
+    "static/media/personajesWin.png": "/JuegoUsable_deMatematica/static/media/personajesWin.beac677ffb80db13418a.png",
+    "static/media/logoPauseJuego.png": "/JuegoUsable_deMatematica/static/media/logoPauseJuego.8f75f73b8d08287ceaf3.png",
+    "static/media/LogoGameOver.png": "/JuegoUsable_deMatematica/static/media/LogoGameOver.8540840c7b2b69bce3c6.png",
+    "static/media/Shojumaru-Regular.ttf": "/JuegoUsable_deMatematica/static/media/Shojumaru-Regular.9559fd7a1206d37af501.ttf",
+    "static/media/OpcNivel3.png": "/JuegoUsable_deMatematica/static/media/OpcNivel3.69eab9d2d88785f215c3.png",
+    "static/media/IndicacionPrincipal.png": "/JuegoUsable_deMatematica/static/media/IndicacionPrincipal.5a0ca00af53c235dafbd.png",
+    "static/media/OpcNivel2.png": "/JuegoUsable_deMatematica/static/media/OpcNivel2.15418e128a5a0ec01c30.png",
+    "static/media/GanaN2.png": "/JuegoUsable_deMatematica/static/media/GanaN2.6c5325d815248e5d62d8.png",
+    "static/media/OpcNivel1.png": "/JuegoUsable_deMatematica/static/media/OpcNivel1.e50eba1a1f0b9df25999.png",
+    "static/media/GanaN1.png": "/JuegoUsable_deMatematica/static/media/GanaN1.aeb1b61160109ba01640.png",
+    "static/media/Menu1.png": "/JuegoUsable_deMatematica/static/media/Menu1.f83ea55da7a719f82647.png",
+    "index.html": "/JuegoUsable_deMatematica/index.html",
+    "main.a7b879da.css.map": "/JuegoUsable_deMatematica/static/css/main.a7b879da.css.map",
+    "main.a563e417.js.map": "/JuegoUsable_deMatematica/static/js/main.a563e417.js.map",
+    "453.f6a4268a.chunk.js.map": "/JuegoUsable_deMatematica/static/js/453.f6a4268a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7b879da.css",
+    "static/js/main.a563e417.js"
+  ]
+}
