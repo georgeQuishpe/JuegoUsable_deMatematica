@@ -13,19 +13,19 @@ const Menu = () => {
   return (
     <div className="menu">
       <button className="menu-button" onClick={() => navigate('/PasarNivel1')}>
-        <img src={play} alt="Jugar" />
+        <img src={play}/>
         <span>Jugar</span>
       </button>
       <button className="menu-button" onClick={() => navigate('/Instrucciones')}>
-        <img src={instrucciones} alt="instrucciones" />
+        <img src={instrucciones}/>
         <span>Instrucciones</span>
       </button>
       <button className="menu-button btn-material" onClick={() => navigate('/Material')}>
-        <img src={material} alt="material de estudios" />
+        <img src={material} />
         <span>Material de estudios</span>
       </button>
       <button className="menu-button" onClick={() => navigate('/Configuracion')}>
-        <img src={settigs} alt="configuraciones" />
+        <img src={settigs}/>
         <span>configuraciones</span>
       </button>
     </div>

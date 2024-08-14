@@ -10,21 +10,21 @@ const BtnNivel1 = ({ buttonColor, Navegar }) => {
     <div className="buttons-opc">
         <div className="buttons-container1">
             <button className="opc-button" style={{ backgroundColor: buttonColor }}  onClick={() => navigate(Navegar)}
-            alt="abre paréntesis -3, coma, infinito positivo y cierro parentecis">
+            aria-label="abre paréntesis menos 3, coma, infinito positivo y cierro paréntesis">
             &#40;-3, +&#8734;&#41;
             </button>
             <button className="opc-button" style={{ backgroundColor: buttonColor }} onClick={() => navigate('/GameOver')}
-            alt="abre corchete -3, coma, 0 y cierro paréntesis">
+            aria-label="abre corchete menos tres, coma, cero y cierro paréntesis">
             &#91;-3, 0&#41;
              </button>
         </div>
         <div className="buttons-container2">
             <button className="opc-button" style={{ backgroundColor: buttonColor }}  onClick={() => navigate('/GameOver')}
-            alt="abre paréntesis infinito negativo, coma, -3 y cierro parentecis">
+            aria-label="abre paréntesis infinito negativo, coma, menos tres y cierro paréntesis">
             &#40;-&#8734;, -3&#41;
             </button>
             <button className="opc-button" style={{ backgroundColor: buttonColor }} onClick={() => navigate('/GameOver')}
-            alt="abre corchete -3, coma, 0 y cierro corchete">
+            aria-label="abre corchete menos tres, coma, cero y cierro corchete">
             &#91;-3, 0&#93;
             </button>
         </div>
