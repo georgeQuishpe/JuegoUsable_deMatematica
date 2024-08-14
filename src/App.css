@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'MiFuente';
   src: url('./font/Shojumaru-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 .App {

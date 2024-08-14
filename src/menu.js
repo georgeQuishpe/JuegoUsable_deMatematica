@@ -1,9 +1,9 @@
 import React from 'react';
 import './Menu.css';
-import play from './Img/play.png';
-import instrucciones from './Img/instrucciones 1.png';
-import settigs from './Img/settigs.png';
-import material from './Img/Imagen7 1.png';
+import play from './Img/jugar.png';
+import instrucciones from './Img/instrucciones.png';
+import settigs from './Img/configuracion.png';
+import material from './Img/materialDeEstudio.png';
 import { useNavigate } from 'react-router-dom';
 
 
