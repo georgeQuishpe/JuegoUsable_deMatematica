@@ -128,7 +128,7 @@ function App() {
           <Route path="/PasarNivel3" element={<PasarNivel fondo={fondo3} Imagen={personaje} Navegar="/Nivel3"/>}/>
           <Route path="/Nivel3" element={
             <div className="background">
-              <img src={fondo3} alt="Nivel 2, llego tu fin warrior, a ver si representas sabes como se esto lo siguiente: 
+              <img src={fondo3} alt="Nivel 2, llego tu fin warrior, a ver si representas lo siguiente: 
               si a es elemento de -2 a 0, b es elemento de +2 a +6 y c es elemento de +4 a +8 todos los conjuntos incluidos los
               extremos, cual es la representación de la unión del conjunto A con la intersección de los conjuntos B y C" className="fondo" tabIndex={0}/>
               <img src={OpcNivel3} alt="" className="img" tabIndex={1}/>
