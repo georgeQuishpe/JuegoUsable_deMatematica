@@ -9,21 +9,39 @@ function BtnPausa() {
     const navigate = useNavigate();
     const { nivel } = useParams();
 
-  return (
-    <div className="buttonPaus-container">
-    <button className="button-menu">
-        <img src={home} alt="botón para regresar a la pantalla principal" className="icono"  onClick={() => navigate('/')} />
-    </button>
+    const handleKeyDown = (event, path) => {
+        if (event.key === 'Enter') {
+            navigate(path);
+        }
+    };
 
-    <button className="button-play">
-        <img src={play} alt="botón para salir de pausa" className="icono"  onClick={() => navigate("/"+nivel)} />
-    </button>
+    return (
+        <div className="buttonPaus-container">
+            <button 
+                className="button-menu" 
+                onClick={() => navigate('/')} 
+                onKeyDown={(event) => handleKeyDown(event, '/')}
+            >
+                <img src={home} alt="botón para regresar a la pantalla principal" className="icono" />
+            </button>
 
-    <button className="button-repetir">
-        <img src={reiniciar} alt="botón para reptir el juego" className="icono"  onClick={() => navigate('/PasarNivel1')} />
-    </button>
-    </div>
-  );
+            <button 
+                className="button-play" 
+                onClick={() => navigate("/" + nivel)} 
+                onKeyDown={(event) => handleKeyDown(event, "/" + nivel)}
+            >
+                <img src={play} alt="botón para salir de pausa" className="icono" />
+            </button>
+
+            <button 
+                className="button-repetir" 
+                onClick={() => navigate('/PasarNivel1')} 
+                onKeyDown={(event) => handleKeyDown(event, '/PasarNivel1')}
+            >
+                <img src={reiniciar} alt="botón para repetir el juego" className="icono" />
+            </button>
+        </div>
+    );
 }
 
 export default BtnPausa;

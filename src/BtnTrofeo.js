@@ -7,17 +7,31 @@ import { useNavigate } from 'react-router-dom';
 function BtnTrofeo() {
     const navigate = useNavigate();
 
-  return (
-    <div className="buttonWin-container">
-    <button className="buttonWin-menu">
-        <img src={home} alt="botón para regresar a la pantalla principal" className="icono"  onClick={() => navigate('/')} />
-    </button>
+    const handleKeyDown = (event, path) => {
+        if (event.key === 'Enter') {
+            navigate(path);
+        }
+    };
 
-    <button className="buttonWin-repetir">
-        <img src={reiniciar} alt="botón para reptir el juego" className="icono"  onClick={() => navigate('/PasarNivel1')} />
-    </button>
-    </div>
-  );
+    return (
+        <div className="buttonWin-container">
+            <button 
+                className="buttonWin-menu"
+                onClick={() => navigate('/')} 
+                onKeyDown={(event) => handleKeyDown(event, '/')}
+            >
+                <img src={home} alt="botón para regresar a la pantalla principal" className="icono" />
+            </button>
+
+            <button 
+                className="buttonWin-repetir"
+                onClick={() => navigate('/PasarNivel1')} 
+                onKeyDown={(event) => handleKeyDown(event, '/PasarNivel1')}
+            >
+                <img src={reiniciar} alt="botón para repetir el juego" className="icono" />
+            </button>
+        </div>
+    );
 }
 
 export default BtnTrofeo;

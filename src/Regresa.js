@@ -5,10 +5,20 @@ import { useNavigate } from 'react-router-dom';
 
 function BtnRegresa() {
   const navigate = useNavigate();
-  
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      navigate('/');
+    }
+  };
+
   return (
-    <button className="button-Regresar">
-      <img src={icono} alt="botón para regresar a menu" className="icono-Regresar" onClick={()=>navigate('/')} />
+    <button
+      className="button-Regresar"
+      onClick={() => navigate('/')}
+      onKeyDown={handleKeyDown}
+    >
+      <img src={icono} alt="botón para regresar a menu" className="icono-Regresar" />
     </button>
   );
 }
