@@ -82,7 +82,7 @@ function App() {
               <img src={fondo} alt="Indicaciones del guia antes de empezar el juego" className="fondo" />
               <img src={IndicacionPrincipal} alt="Hola warrior, es hora de luchar, cada villano te pondra un reto en el 
               camino tu tarea es resolver el reto con tu inteligencia y derrotarlo. 
-              Recuerda que tu equivocación te puede costar la muerte." className="img" />
+              Recuerda que tu equivocación te puede costar la muerte." className="img" Navegar="/Nivel1"/>
               <BotonesNivel buttonColor="#a0f4f4" Navegar="/Nivel1"/>
             </div>
           } />
