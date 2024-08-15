@@ -54,8 +54,3 @@
   width: 90px; /* Ajusta el tamaño de la imagen según tus necesidades */
   height: 90px;
 }
-  
-.icono-Regresar:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
